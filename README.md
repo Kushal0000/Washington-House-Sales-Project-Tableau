@@ -1,69 +1,70 @@
-# 🏡 King County House Sales Analysis Dashboard – Tableau Project 
+# 🏡 King County House Sales Analysis | Tableau Dashboard
 
-This repository features a dynamic **interactive Tableau dashboard** that provides an in-depth analysis of **housing sales data from King County, Washington**. The dashboard enables real estate professionals, analysts, and stakeholders to explore market trends, property conditions, and price distributions using various filters and visual elements.
+This project presents an interactive and insightful Tableau dashboard built to explore housing market trends in **King County, Washington**. Designed for **real estate professionals, analysts, and stakeholders**, the dashboard enables data-driven decision-making by offering dynamic filtering and visually compelling insights into house prices, property conditions, and geographical trends.
 
 ---
 
 ## 📍 Project Objective
 
-To analyze house sales trends across King County, WA using **exploratory data visualizations** and provide **actionable insights** for understanding the housing market, pricing behavior, and property characteristics.
+To conduct **exploratory data analysis (EDA)** on King County house sales data and develop a **dashboard solution** that highlights key market patterns, pricing behavior, and property attributes. The goal is to assist real estate stakeholders in identifying opportunities and gaining a deeper understanding of the local housing market.
 
 ---
 
-## 🧰 Tools & Technologies
+## 🛠 Tools & Technologies
 
-- **Tableau Public**
-- Data source: King County House Sales dataset (CSV)
-- Calculated fields, filters, bins, and heatmaps for interactive exploration
-- Custom calendar and dropdown filters
-- Map visualization using **Mapbox + OpenStreetMap**
+- **Tool**: Tableau Public
+- **Data Source**: King County House Sales Dataset (CSV)
+- **Techniques**: Calculated fields, filters, bins, histograms, heatmaps, Mapbox maps
+- **Design Elements**:
+  - Custom calendar filters
+  - Interactive range sliders
+  - Geospatial visualizations using OpenStreetMap
 
 ---
 
-## 📊 Dashboard Components & Features
+## 📊 Dashboard Components
 
-### 🔎 Filters (Left Panel)
-- **Month and Date Selector**: Filter the dashboard based on the selected month and specific days using a **calendar widget**.
-- **Year Built**: Slider filter to explore homes by construction year (1900–2015).
-- **Sqft Living & Lot**: Range sliders to filter homes based on indoor living space and lot size.
+### 🔎 Filters (Sidebar)
+- **Month & Date Selector**: Interact with daily and monthly trends using a calendar widget.
+- **Year Built**: Explore sales by home construction year (1900–2015).
+- **Square Footage Filters**:
+  - **Living Area**: Range slider to explore homes by interior size.
+  - **Lot Size**: Filter by lot area to identify different property types.
 
-### 💹 Key Visualizations
-- **Average House Sales Price Line Chart**:
-  - Tracks the **average daily sales price** over the selected month.
-  - Reveals price volatility and peak sales days.
+---
 
-- **Map Visualization**:
-  - Displays **sales density and price ranges by region** in King County.
-  - Useful for geographic comparison and market segmentation.
+### 💹 Visualizations
 
-- **Distribution of House Prices**:
-  - Histogram shows frequency of homes sold within price bins.
-  - Helps identify median-priced properties and outliers.
+- **📈 Average House Sales Price Line Chart**  
+  Tracks the average daily sales price over selected months. Helps detect volatility, seasonal trends, and peak sales days.
 
-- **View vs Condition Heatmap**:
-  - Cross-analysis of **property view rating vs condition** and their influence on price.
-  - Highlights that homes with **excellent views and good condition** fetch the highest prices.
+- **🗺 Map Visualization**  
+  Visualizes sales price distribution across King County using Mapbox. Highlights regional price differences and market clusters.
 
-- **Distribution of Bedrooms & Bathrooms**:
-  - Histograms showing how many properties fall into various bin categories of bedroom and bathroom counts.
-  - Useful for understanding typical housing configurations in the region.
+- **📊 Price Distribution Histogram**  
+  Displays the frequency of home sales by price range. Reveals the most common price brackets and outliers.
+
+- **🔥 View vs Condition Heatmap**  
+  Shows correlation between a property's view rating, condition, and average price. Indicates that better views and good conditions lead to premium pricing.
+
+- **🛏 Bedroom & 🛁 Bathroom Distribution**  
+  Histograms show typical housing configurations and their prevalence in the dataset.
 
 ---
 
 ## 💡 Key Insights
 
-- Most homes are priced between **$200K–$600K**, with fewer high-end properties above $1M.
-- **3-bedroom** homes are the most common configuration.
-- Better **view and property condition** directly correlate with higher sale prices.
-- High sales activity is concentrated in **urban and suburban zones** near Seattle.
-- Homes built after 2000 show higher average sale prices than older constructions.
+- **Price Range**: Most homes are priced between **$200K–$600K**, with luxury homes above **$1M** forming a small percentage.
+- **Home Configuration**: **3-bedroom** homes dominate the market.
+- **Price Drivers**: Properties with superior views and conditions command higher sale prices.
+- **Location Effect**: Higher-priced sales are concentrated near **Seattle and suburban regions**.
+- **Construction Year Impact**: Homes built after **2000** show significantly higher average sale prices.
 
 ---
-
 ## 📬 Contact
 
-- 💼 LinkedIn: www.linkedin.com/in/kushal-patel-47a281135
-- 📧 Email: kushalpatel22900@gmail.com
+- **Name**: Kushal Patel  
+- **LinkedIn**: www.linkedin.com/in/kushal-patel-47a281135
+- **Email**: kushalpatel22900@gmail.com
 
 ---
-
